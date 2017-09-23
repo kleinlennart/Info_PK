@@ -4,20 +4,19 @@ public class Creator {
 
 	
 	
-	public void Heldauswählen()
+	public void HeldAuswahl()
 	{
-		//später
+		//spï¿½ter
 	}
 	
-	public void Klasseauswählen()
+	public void KlassenAuswahl()
 	{
-		//später
+		//spï¿½ter
 	}
 	
-	public void SKPauswählen()
+	public void UseSKP()
 	{
-		skp=10;
-		//später
+		//spï¿½ter
 	}
 
 
