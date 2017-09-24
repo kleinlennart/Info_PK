@@ -1,4 +1,7 @@
-package game;
+package entities;
+
+import items.Armor;
+import items.Waffe;
 
 public class Held {
 
