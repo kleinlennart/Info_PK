@@ -1,5 +1,7 @@
 package game;
 
+import entities.Held;
+
 public class LvLup {
 
 	public int xpmax;
@@ -8,7 +10,7 @@ public class LvLup {
 	public LvLup(int pxpmax, Held pmeinHeld) 
 	{
 		this.xpmax = pxpmax;
-		pmeinHeld = this.meineHeld;
+		this.meineHeld = pmeinHeld;
 	}
 
 	public void lvlupwerte() 
@@ -17,7 +19,7 @@ public class LvLup {
 		xpmax=xpmax/2+xpmax;
 		lvl++;
 		skp++;
-		meinHeld.hp_current=hpmax;
+		meineHeld.hp_current= meineHeld.hp_max;
 	}
 	
 	public int getXpmax() 
