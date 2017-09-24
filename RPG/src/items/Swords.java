@@ -1,4 +1,4 @@
-package game;
+package items;
 
 public class Swords extends Waffe 
 {
