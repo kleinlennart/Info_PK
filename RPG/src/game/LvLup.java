@@ -5,19 +5,19 @@ import entities.Held;
 public class LvLup {
 
 	public int xpmax;
-	public Held meineHeld;
+	public Held meinHeld;
 
 	public LvLup(int pxpmax, Held pmeinHeld) {
 		this.xpmax = pxpmax;
-		this.meineHeld = pmeinHeld;
+		this.meinHeld = pmeinHeld;
 	}
 
 	public void lvlUpWerte() {
-		xp = xp - xpmax;
+		meinHeld.xp = meinHeld.xp - xpmax;
 		xpmax = xpmax / 2 + xpmax;
-		lvl++;
-		skp++;
-		meineHeld.hp_current = meineHeld.hp_max;
+		meinHeld.level++;
+		meinHeld.skp++;
+		meinHeld.hp_current = meinHeld.hp_max;
 	}
 
 	public int getXpmax() {
@@ -26,14 +26,6 @@ public class LvLup {
 
 	public void setXpmax(int xpmax) {
 		this.xpmax = 200;
-	}
-
-	public Held getMeineHeld() {
-		return meineHeld;
-	}
-
-	public void setMeineHeld(Held meineHeld) {
-		this.meineHeld = meineHeld;
 	}
 
 }
