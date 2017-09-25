@@ -1,6 +1,9 @@
 package entities;
 
 import items.Armor;
+import items.Boots;
+import items.Chest;
+import items.Helmet;
 import items.Waffe;
 
 public class Magier extends Held {
@@ -9,11 +12,13 @@ public class Magier extends Held {
 	private int mana;
 	private String element;
 
+
+
 	public Magier(String name, int hp_current, int xp, int level, int skp, String klasse, int hp_max, int intelligence,
-			int strength, int luck, Waffe meineWaffe, int gold, int coins, Armor meineArmor, int mana_max, int mana,
-			String element) {
+			int strength, int luck, Waffe meineWaffe, int gold, int coins, Boots meineBoots, Chest meineChest,
+			Helmet meinHelmet, int mana_max, int mana, String element) {
 		super(name, hp_current, xp, level, skp, klasse, hp_max, intelligence, strength, luck, meineWaffe, gold, coins,
-				meineArmor);
+				meineBoots, meineChest, meinHelmet);
 		this.mana_max = mana_max;
 		this.mana = mana;
 		this.element = element;
