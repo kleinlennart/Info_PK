@@ -1,7 +1,6 @@
 package entities;
 
-import items.Armor;
-import items.Waffe;
+import items.*;
 
 public class Held {
 
@@ -23,14 +22,17 @@ public class Held {
 	public Waffe meineWaffe;
 	public int gold;
 	public int coins;
-	public Armor meineArmor;
+	public Boots meineBoots;
+	public Chest meineChest;
+	public Helmet meinHelmet;
 
 	public String getName() {
 		return name;
 	}
 
 	public Held(String name, int hp_current, int xp, int level, int skp, String klasse, int hp_max, int intelligence,
-			int strength, int luck, Waffe meineWaffe, int gold, int coins, Armor meineArmor) {
+			int strength, int luck, Waffe meineWaffe, int gold, int coins, Boots meineBoots, Chest meineChest,
+			Helmet meinHelmet) {
 		super();
 		this.name = name;
 		this.hp_current = hp_current;
@@ -45,7 +47,9 @@ public class Held {
 		this.meineWaffe = meineWaffe;
 		this.gold = gold;
 		this.coins = coins;
-		this.meineArmor = meineArmor;
+		this.meineBoots = meineBoots;
+		this.meineChest = meineChest;
+		this.meinHelmet = meinHelmet;
 	}
 
 	public String getKlasse() {
