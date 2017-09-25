@@ -7,7 +7,8 @@ public class Monster {
 	public int attack;
 	public String name;
 
-	public Monster(int hp, int hp_max, int attack, String name) {
+	public Monster(int hp, int hp_max, int attack, String name) 
+	{
 		super();
 		this.hp = hp;
 		this.hp_max = hp_max;
