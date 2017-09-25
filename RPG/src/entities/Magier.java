@@ -1,10 +1,6 @@
 package entities;
 
-import items.Armor;
-import items.Boots;
-import items.Chest;
-import items.Helmet;
-import items.Waffe;
+import items.*;
 
 public class Magier extends Held {
 
