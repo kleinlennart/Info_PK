@@ -60,7 +60,5 @@ public class Bosse extends Monster {
 	public void setElement(String element) {
 		this.element = element;
 	}
-	
-	
 
 }

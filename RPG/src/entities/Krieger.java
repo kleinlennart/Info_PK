@@ -6,8 +6,6 @@ public class Krieger extends Held {
 
 	private int stamina;
 
-
-
 	public Krieger(String name, int hp_current, int xp, int level, int skp, String klasse, int hp_max, int intelligence,
 			int strength, int luck, Waffe meineWaffe, int gold, int coins, Boots meineBoots, Chest meineChest,
 			Helmet meinHelmet, int stamina) {
