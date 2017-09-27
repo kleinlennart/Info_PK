@@ -30,7 +30,7 @@ public class DisplayImage extends JFrame {
 
 	private ImageIcon loadImage() {
 
-		ImageIcon ii = new ImageIcon("src/images/Trump.jpg");
+		ImageIcon ii = new ImageIcon("src/textures/Trump.jpg");
 		return ii;
 	}
 
