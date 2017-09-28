@@ -1,4 +1,4 @@
-package graphics;
+package graphic;
 
 import javax.swing.JComponent;
 

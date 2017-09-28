@@ -1,4 +1,4 @@
-package graphics;
+package graphic;
 
 public class EventHandling {
 

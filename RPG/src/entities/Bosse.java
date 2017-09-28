@@ -1,6 +1,6 @@
 package entities;
 
-import graphics.Bars; //Important!
+import graphic.Bars;
 
 public class Bosse extends Monster {
 

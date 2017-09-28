@@ -1,6 +1,6 @@
 package items;
 
-import graphics.*; // Later Usage
+import graphic.*;
 
 public class Inventory {
 
