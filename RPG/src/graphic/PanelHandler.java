@@ -1,18 +1,17 @@
 package graphic;
 
+import javax.swing.ImageIcon;
 import javax.swing.JComponent;
+import javax.swing.JLabel;
 
-public class Panels extends JComponent {
+public class PanelHandler {
 
-	// Grafikansichten im Spiel sind Methoden
-
-	public Panels() {
-		super();
-		// TODO Auto-generated constructor stub
+	public PanelHandler() {
 	}
 
 	public void HeldCreator() {
-
+		// frame.setContentPane(new JLabel(new
+		// ImageIcon(PanelHandler.class.getResource("/images/filename.jpg"))));
 	}
 
 	public void Anmelden() {
